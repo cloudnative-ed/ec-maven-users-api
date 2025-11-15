@@ -11,7 +11,7 @@ on:
 # trabajos
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: centos9
     steps:
     - uses: actions/checkout@v5
     
